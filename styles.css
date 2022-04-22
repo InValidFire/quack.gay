@@ -1,0 +1,112 @@
+body {
+    background-color: #293B2A;
+}
+
+#wrapper {
+    background-color: #647E5A;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #101010;
+    border-right: 1px solid #101010;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    overflow: visible;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: #646D5A;
+    margin-bottom: 1vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #505948;
+    display: block;
+}
+  
+nav li {
+    margin: 0;
+    display: inline;
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: #8CAA8C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #464F3E;
+}
+
+footer {
+    background: linear-gradient(20deg, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff);
+    margin-top: auto;
+}
+
+footer hr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #101010;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+p {
+    color: #101010;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+hr {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #101010;
+    margin: auto;
+}
+
+.social {
+    color: #683655;
+    font-size: large;
+    font-weight: bold;
+}
+
+svg {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* want to figure out why this works */
+}
