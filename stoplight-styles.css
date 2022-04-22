@@ -111,7 +111,7 @@ img {
 }
 
 .img-container {
-    margin: .2%;
+    margin: .5vh;
     border: 0;
     width: 35%;
     float:left;
