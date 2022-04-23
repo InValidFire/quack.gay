@@ -9,7 +9,7 @@ body {
     border-left: 1px solid #101010;
     border-right: 1px solid #101010;
     width: 90%;
-    height: 100vh;
+    height: 100vh; /* remove once content grows enough */
     display: flex;
     flex-direction: column;
 }
@@ -101,12 +101,30 @@ hr {
     color: #683655;
     font-size: large;
     font-weight: bold;
+    display: block;
 }
 
-svg {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: auto;
-    margin-right: auto;
-    display: block; /* want to figure out why this works */
+#mastodon {
+    font-style: italic;
+    text-decoration: none;
+    color: #3088D4;
+}
+
+#discord {
+    font-style: italic;
+    text-decoration: none;
+    color: #7289DA;
+}
+
+#contact {
+    border-style: solid;
+    border-width: .2vh;
+    border-color: #101010;
+    padding: 1vh;
+    background-color: #646D5A;
+    display: block;
+}
+
+#contact h2 {
+    margin: 0;
 }
