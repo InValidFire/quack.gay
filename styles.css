@@ -104,6 +104,21 @@ hr {
     display: block;
 }
 
+#nix-container {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    height: 100%;
+}
+
+#nix {
+    font-size: xx-large;
+    font-family: "Comic Sans MS";
+    color: #674990;
+    font-style: italic;
+    text-decoration: none;
+}
+
 #mastodon {
     font-style: italic;
     text-decoration: none;
