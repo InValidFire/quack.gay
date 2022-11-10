@@ -1,0 +1,52 @@
+:root {
+    --social-text-color: #683655;
+    --mastodon-text-color: #3088D4;
+    --discord-text-color: #7289DA;
+}
+
+.social {
+    color: #683655;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+}
+
+#mastodon {
+    font-style: italic;
+    text-decoration: none;
+    color: #3088D4;
+}
+
+#discord {
+    font-style: italic;
+    text-decoration: none;
+    color: #7289DA;
+}
+
+#contact {
+    border-style: solid;
+    border-width: .2vh;
+    border-color: var(--border-color);
+    padding: 1vh;
+    background-color: var(--header-background-color);
+    display: block;
+}
+
+#contact h2 {
+    margin: 0;
+}
+
+#nix-container {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    height: 100%;
+}
+
+#nix {
+    font-size: xx-large;
+    font-family: "Comic Sans MS";
+    color: #674990;
+    font-style: italic;
+    text-decoration: none;
+}
